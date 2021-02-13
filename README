@@ -1,0 +1,7 @@
+We don't know how extrapolation behave when ND is not binned in energy resolution. Need to investigate.
+
+
+Here: 
+1. Making ND MC summary with and without resbin.
+2. Making ND Data summary with and without resbin.
+3. Making ratio plots betwween Data/MC for different resolution bin and compare them.

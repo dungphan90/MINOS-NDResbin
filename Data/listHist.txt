@@ -1,0 +1,190 @@
+  KEY: TH1F	hDetector;1	hDetector
+  KEY: TH1F	hSimFlag;1	hSimFlag
+  KEY: TH1F	hTrigSrc;1	hTrigSrc
+  KEY: TH1F	hSpillsPerFile;1	hSpillsPerFile
+  KEY: TH1F	hTotalPot;1	hTotalPot
+  KEY: TH1F	hPottortgt;1	hPottortgt
+  KEY: TH1F	hPotBadtortgt;1	hPotBadtortgt
+  KEY: TH1F	hPottrtgtd;1	hPottrtgtd
+  KEY: TH1F	hPotBadtrtgtd;1	hPotBadtrtgtd
+  KEY: TH1F	hPottor101;1	hPottor101
+  KEY: TH1F	hPotBadtor101;1	hPotBadtor101
+  KEY: TH1F	hPottr101d;1	hPottr101d
+  KEY: TH1F	hPotBadtr101d;1	hPotBadtr101d
+  KEY: TH1F	hRun;2	hRun
+  KEY: TH1F	hRun;1	hRun
+  KEY: NuXMLConfig	NuXMLConfig;1	
+  KEY: TH2D	RecoVsTrueEnergy_ND;1	Reco Vs True Energy (NearDet)
+  KEY: TH1D	Efficiency_ND;1	NuMu CC Selection Efficiency with True Energy (NearDet)
+  KEY: TH1D	Purity_ND;1	NuMu CC Selection Purity with Reco Energy (NearDet)
+  KEY: TH2D	RecoVsTrueEnergy_FD;1	Reco Vs True Energy (FarDet)
+  KEY: TH1D	RecoMinusTrueEnergy_FD;1	Reco Minus True Energy (FarDet)
+  KEY: TH2D	RecoMinusTrueEnergy_RecoE_FD;1	Reco Minus True Energy v RecoE (FarDet)
+  KEY: TH1D	RecoMinusTrueEnergyDivReco_FD;1	Reco Minus True Energy Over True (FarDet)
+  KEY: TH1D	Resolution_FD;1	Resolution (FarDet)
+  KEY: TH1D	Efficiency_FD;1	NuMu CC Selection Efficiency with True Energy (FarDet)
+  KEY: TH1D	Purity_FD;1	NuMu CC Selection Purity with Reco Energy (FarDet)
+  KEY: TH1D	CCContamination_FD;1	CC antineutrino contamination in a -ve curving CC selection (FarDet)
+  KEY: TH1D	CCContamination_ND;1	CC antineutrino contamination in a -ve curving CC selection (NearDet)
+  KEY: TH2D	CCContaminationRecoVsTrue_FD;1	Reco vs true energy of CC antineutrino contamination in a -ve curving CC selection (FarDet)
+  KEY: TH1D	NCContamination_ND;1	NC contamination in a -ve curving CC selection (NearDet)
+  KEY: TH1D	NCContamination_FD;1	NC contamination in a -ve curving CC selection (FarDet)
+  KEY: TH2D	RecoVsTrueEnergyPQ_ND;1	Reco Vs True Energy (NearDet)
+  KEY: TH1D	EfficiencyPQ_ND;1	NuMuBar CC Selection Efficiency with True Energy (NearDet)
+  KEY: TH1D	PurityPQ_ND;1	NuMuBar CC Selection Purity with Reco Energy (NearDet)
+  KEY: TH2D	RecoVsTrueEnergyPQ_FD;1	Reco Vs True Energy (FarDet)
+  KEY: TH1D	EfficiencyPQ_FD;1	NuMuBar CC Selection Efficiency with True Energy (FarDet)
+  KEY: TH1D	PurityPQ_FD;1	NuMuBar CC Selection Purity with Reco Energy (FarDet)
+  KEY: TH1D	CCContaminationPQ_ND;1	CC neutrino contamination in a +ve curving CC selection (NearDet)
+  KEY: TH1D	CCContaminationPQ_FD;1	CC neutrino contamination in a +ve curving CC selection (FarDet)
+  KEY: TH2D	CCContaminationRecoVsTruePQ_FD;1	RecoVsTrue Energy of CC neutrino contamination in a +ve curving CC selection (FarDet)
+  KEY: TH1D	NCContaminationPQ_ND;1	NC contamination in a +ve curving CC selection (NearDet)
+  KEY: TH1D	NCContaminationPQ_FD;1	NC contamination in a +ve curving CC selection (FarDet)
+  KEY: TH2D	RecoVsTrueEnergyAll_ND;1	Reco Vs True Energy (NearDet)
+  KEY: TH1D	EfficiencyAll_ND;1	All CC Selection Efficiency with True Energy (NearDet)
+  KEY: TH1D	PurityAll_ND;1	All CC Selection Purity with Reco Energy (NearDet)
+  KEY: TH2D	RecoVsTrueEnergyAll_FD;1	Reco Vs True Energy (FarDet)
+  KEY: TH1D	EfficiencyAll_FD;1	All CC Selection Efficiency with True Energy (FarDet)
+  KEY: TH1D	PurityAll_FD;1	All CC Selection Purity with Reco Energy (FarDet)
+  KEY: TH2D	RecoVsTrueEnergyTau_FD;1	Tau Reco Vs True Energy (FarDet)
+  KEY: TH1D	EfficiencyTau_FD;1	NuTau CC Selection Efficiency with True Energy (FarDet)
+  KEY: TH2D	RecoVsTrueEnergyTauPQ_FD;1	TauBar Reco Vs True Energy (FarDet)
+  KEY: TH1D	EfficiencyTauPQ_FD;1	NuTauBar CC Selection Efficiency with True Energy (FarDet)
+  KEY: TH2D	RecoVsTrueEnergyTauAll_FD;1	Tau Reco Vs True Energy (FarDet)
+  KEY: TH1D	EfficiencyTauAll_FD;1	NuTau CC Selection Efficiency with True Energy (FarDet)
+  KEY: TH1D	TrueEnergyCCOnlyEvents_ND;1	NuMu CC Selected Events with True Energy (NearDet)
+  KEY: TH1D	RecoEnergyCCOnlyEvents_ND;1	NuMu CC Selected Events with Reco Energy (NearDet)
+  KEY: TH1D	RecoEnergyAllEvents_ND;1	Selected Events with Reco Energy (NearDet)
+  KEY: TH1D	TrueEnergyCCOnlyEvents_FD;1	NuMu CC Selected Events with True Energy (FarDet)
+  KEY: TH1D	RecoEnergyCCOnlyEvents_FD;1	NuMu CC Selected Events with Reco Energy (FarDet)
+  KEY: TH1D	RecoEnergyAllEvents_FD;1	Selected Events with Reco Energy (FarDet)
+  KEY: TH1D	TrueEnergyCCOnlyEventsPQ_ND;1	NuMuBar CC Selected Events with True Energy (NearDet)
+  KEY: TH1D	RecoEnergyCCOnlyEventsPQ_ND;1	NuMuBar CC Selected Events with Reco Energy (NearDet)
+  KEY: TH1D	RecoEnergyAllEventsPQ_ND;1	Selected Events with Reco Energy (NearDet)
+  KEY: TH1D	TrueEnergyCCOnlyEventsPQ_FD;1	NuMuBar CC Selected Events with True Energy (FarDet)
+  KEY: TH1D	RecoEnergyCCOnlyEventsPQ_FD;1	NuMuBar CC Selected Events with Reco Energy (FarDet)
+  KEY: TH1D	RecoEnergyAllEventsPQ_FD;1	Selected Events with Reco Energy (FarDet)
+  KEY: TH1D	TrueEnergyCCOnlyEventsAll_ND;1	All CC Selected Events with True Energy (NearDet)
+  KEY: TH1D	RecoEnergyCCOnlyEventsAll_ND;1	All CC Selected Events with Reco Energy (NearDet)
+  KEY: TH1D	RecoEnergyAllEventsAll_ND;1	Selected Events with Reco Energy (NearDet)
+  KEY: TH1D	TrueEnergyCCOnlyEventsAll_FD;1	All CC Selected Events with True Energy (FarDet)
+  KEY: TH1D	RecoEnergyCCOnlyEventsAll_FD;1	All CC Selected Events with Reco Energy (FarDet)
+  KEY: TH1D	RecoEnergyAllEventsAll_FD;1	Selected Events with Reco Energy (FarDet)
+  KEY: TH1D	TrueEnergyCCOnlyEventsTau_FD;1	NuTau CC Selected Events with True Energy (FarDet)
+  KEY: TH1D	TrueEnergyCCOnlyEventsTauPQ_FD;1	NuTauBar CC Selected Events with True Energy (FarDet)
+  KEY: TH1D	TrueEnergyCCOnlyEventsTauAll_FD;1	NuTau CC Selected Events with True Energy (FarDet)
+  KEY: TH1D	RecoEnergy_ND;1	Reconstructed Energy - Data (NearDet)
+  KEY: TH1D	RecoEnergy_FD;1	Reconstructed Energy - Data (FarDet)
+  KEY: TH1D	RecoEnergyPQ_ND;1	Reconstructed Energy - Data (NearDet)
+  KEY: TH1D	RecoEnergyPQ_FD;1	Reconstructed Energy - Data (FarDet)
+  KEY: TH1D	RecoEnergyTrueTauPQ_FD;1	Reconstructed Energy - Data (True anti tau FarDet)
+  KEY: TH1D	RecoEnergyTrueMuonPQ_FD;1	Reconstructed Energy - Data (True anti muon FarDet)
+  KEY: TH1D	RecoEnergyTrueTauNQ_FD;1	Reconstructed Energy - Data (True tau FarDet)
+  KEY: TH1D	RecoEnergyTrueMuonNQ_FD;1	Reconstructed Energy - Data (True muon FarDet)
+  KEY: TH1D	RecoEnergyTrueTauPQ_ND;1	Reconstructed Energy - Data (True anti tau NearDet)
+  KEY: TH1D	RecoEnergyTrueMuonPQ_ND;1	Reconstructed Energy - Data (True anti muon NearDet)
+  KEY: TH1D	RecoEnergyTrueTauNQ_ND;1	Reconstructed Energy - Data (True tau NearDet)
+  KEY: TH1D	RecoEnergyTrueMuonNQ_ND;1	Reconstructed Energy - Data (True muon NearDet)
+  KEY: TH1D	RecoEnergyWSTauPQ_FD;1	Reconstructed Energy - Data (WS tau FarDet)
+  KEY: TH1D	RecoEnergyWSMuonPQ_FD;1	Reconstructed Energy - Data (WS muon FarDet)
+  KEY: TH1D	RecoEnergyWSTauNQ_FD;1	Reconstructed Energy - Data (WS anti tau FarDet)
+  KEY: TH1D	RecoEnergyWSMuonNQ_FD;1	Reconstructed Energy - Data (WS anti muon FarDet)
+  KEY: TH1D	RecoEnergyWSTauPQ_ND;1	Reconstructed Energy - Data (WS tau NearDet)
+  KEY: TH1D	RecoEnergyWSMuonPQ_ND;1	Reconstructed Energy - Data (WS muon NearDet)
+  KEY: TH1D	RecoEnergyWSTauNQ_ND;1	Reconstructed Energy - Data (WS anti tau NearDet)
+  KEY: TH1D	RecoEnergyWSMuonNQ_ND;1	Reconstructed Energy - Data (WS anti muon NearDet)
+  KEY: TH1D	RecoEnergyAll_ND;1	Reconstructed Energy - Data (NearDet)
+  KEY: TH1D	RecoEnergyAll_FD;1	Reconstructed Energy - Data (FarDet)
+  KEY: TH1F	poKinPQ;1	poKin Value for PQ Events
+  KEY: TH1F	roIdPQ;1	roID Value for PQ Events
+  KEY: TH1F	dpIdPQ;1	dpID Value for PQ Events
+  KEY: TH1F	trkLPQ;1	trkLength for PQ Events
+  KEY: TH1F	relAPQ;1	|Relative Angle - #pi| for PQ Events
+  KEY: TH1F	relAPQ1;1	Relative Angle for PQ Events
+  KEY: TH2F	relAngVsTrkEndX;1	Rel. Angle vs xTrkEnd for PQ
+  KEY: TH2F	relAngVsTrkEndY;1	Rel. Angle vs yTrkEnd for PQ
+  KEY: TH2F	relAngVsTrkEndZ;1	Rel. Angle vs zTrkEnd for PQ
+  KEY: TH1F	relANQ;1	|Relative Angle - #pi| for NQ Events
+  KEY: TH1F	qp_sigmaqpPQ;1	qp/#sigma qp for PQ Events
+  KEY: TH1F	majCPQ;1	Majority Curvature for PQ Events
+  KEY: TH1F	probPQ;1	prob for PQ Events
+  KEY: TH1D	TrueEnergyTrueCCFidEvents_FD;1	True Fid NuMu CC Events with True Energy (FarDet)
+  KEY: TH1D	TrueEnergyTrueCCFidEvents_ND;1	True Fid NuMu CC Events with True Energy (NearDet)
+  KEY: TH1D	TrueEnergyTrueCCFidEventsNoRw_FD;1	True Fid NuMu CC Events with True Energy (FarDet)
+  KEY: TH1D	TrueEnergyTrueCCFidEventsNoRw_ND;1	True Fid NuMu CC Events with True Energy (NearDet)
+  KEY: TH1D	TrueEnergyTrueCCFidEventsPQ_FD;1	True Fid NuMu CC Events with True Energy (FarDet)
+  KEY: TH1D	TrueEnergyTrueCCFidEventsPQ_ND;1	True Fid NuMu CC Events with True Energy (NearDet)
+  KEY: TH1D	TrueEnergyTrueCCFidEventsNoRwPQ_FD;1	True Fid NuMu CC Events with True Energy (FarDet)
+  KEY: TH1D	TrueEnergyTrueCCFidEventsNoRwPQ_ND;1	True Fid NuMu CC Events with True Energy (NearDet)
+  KEY: TH1D	TrueEnergyTrueCCFidEventsAll_FD;1	True Fid NuMu CC Events with True Energy (FarDet)
+  KEY: TH1D	TrueEnergyTrueCCFidEventsAll_ND;1	True Fid NuMu CC Events with True Energy (NearDet)
+  KEY: TH1D	TrueEnergyTrueCCFidEventsNoRwAll_FD;1	True Fid NuMu CC Events with True Energy (FarDet)
+  KEY: TH1D	TrueEnergyTrueCCFidEventsNoRwAll_ND;1	True Fid NuMu CC Events with True Energy (NearDet)
+  KEY: TH1D	TrueEnergyTrueCCFidEventsTau_FD;1	True Fid NuTau CC Events with True Energy (FarDet)
+  KEY: TH1D	TrueEnergyTrueCCFidEventsTauPQ_FD;1	True Fid NuTauBar CC Events with True Energy (FarDet)
+  KEY: TH1D	TrueEnergyTrueCCFidEventsTauAll_FD;1	True Fid NuTau CC Events with True Energy (FarDet)
+  KEY: TH1F	hEnFidNuMuCC;1	hEnFidNuMuCC
+  KEY: TH1F	hEnFidNuMuBarCC;1	hEnFidNuMuBarCC
+  KEY: TH1F	hEnFidNuMuNC;1	hEnFidNuMuNC
+  KEY: TH1F	hEnFidNuMuBarNC;1	hEnFidNuMuBarNC
+  KEY: TH1F	hEnFidNueCC;1	hEnFidNueCC
+  KEY: TH1F	hEnFidNueBarCC;1	hEnFidNueBarCC
+  KEY: TH1F	hEnFidNueNC;1	hEnFidNueNC
+  KEY: TH1F	hEnFidNueBarNC;1	hEnFidNueBarNC
+  KEY: TH1F	hEnFidNuTauCC;1	hEnFidNuTauCC
+  KEY: TH1F	hEnFidNuTauBarCC;1	hEnFidNuTauBarCC
+  KEY: TH1F	hEnFidNuTauNC;1	hEnFidNuTauNC
+  KEY: TH1F	hEnFidNuTauBarNC;1	hEnFidNuTauBarNC
+  KEY: TH1F	hEnFidAllNC;1	hEnFidAllNC
+  KEY: TH1F	hEnFidAllShw;1	hEnFidAllShw
+  KEY: TH1F	hYFidNuMuCC;1	hYFidNuMuCC
+  KEY: TH1F	hYFidNuMuBarCC;1	hYFidNuMuBarCC
+  KEY: TH1F	hYFidNuMuNC;1	hYFidNuMuNC
+  KEY: TH1F	hYFidNuMuBarNC;1	hYFidNuMuBarNC
+  KEY: TH1F	hYFidNueCC;1	hYFidNueCC
+  KEY: TH1F	hYFidNueBarCC;1	hYFidNueBarCC
+  KEY: TH1F	hYFidNueNC;1	hYFidNueNC
+  KEY: TH1F	hYFidNueBarNC;1	hYFidNueBarNC
+  KEY: TH1F	hYFidNuTauCC;1	hYFidNuTauCC
+  KEY: TH1F	hYFidNuTauBarCC;1	hYFidNuTauBarCC
+  KEY: TH1F	hYFidNuTauNC;1	hYFidNuTauNC
+  KEY: TH1F	hYFidNuTauBarNC;1	hYFidNuTauBarNC
+  KEY: TH1F	hYFidNuMuCCl10;1	hYFidNuMuCCl10
+  KEY: TH1F	hYFidNuMuBarCCl10;1	hYFidNuMuBarCCl10
+  KEY: TH1F	hYFidNuMuCCg10l20;1	hYFidNuMuCCg10l20
+  KEY: TH1F	hYFidNuMuBarCCg10l20;1	hYFidNuMuBarCCg10l20
+  KEY: TH1F	hYFidNuMuCCg20;1	hYFidNuMuCCg20
+  KEY: TH1F	hYFidNuMuBarCCg20;1	hYFidNuMuBarCCg20
+  KEY: TH1F	hXSecNMCC;1	hXSecNMCC
+  KEY: TH1F	hXSecNMBCC;1	hXSecNMBCC
+  KEY: TH1F	hXSecNMNC;1	hXSecNMNC
+  KEY: TH1F	hXSecNMBNC;1	hXSecNMBNC
+  KEY: TH1F	hXSecNECC;1	hXSecNECC
+  KEY: TH1F	hXSecNEBCC;1	hXSecNEBCC
+  KEY: TH1F	hXSecNENC;1	hXSecNENC
+  KEY: TH1F	hXSecNEBNC;1	hXSecNEBNC
+  KEY: TH1F	hXSecNTCC;1	hXSecNTCC
+  KEY: TH1F	hXSecNTBCC;1	hXSecNTBCC
+  KEY: TH1F	hXSecNTNC;1	hXSecNTNC
+  KEY: TH1F	hXSecNTBNC;1	hXSecNTBNC
+  KEY: TProfile	pXSecEnVsEnNMCC;1	pXSecEnVsEnNMCC
+  KEY: TProfile	pXSecEnVsEnNMBCC;1	pXSecEnVsEnNMBCC
+  KEY: TProfile	pXSecEnVsEnNMNC;1	pXSecEnVsEnNMNC
+  KEY: TProfile	pXSecEnVsEnNMBNC;1	pXSecEnVsEnNMBNC
+  KEY: TProfile	pXSecEnVsEnNECC;1	pXSecEnVsEnNECC
+  KEY: TProfile	pXSecEnVsEnNEBCC;1	pXSecEnVsEnNEBCC
+  KEY: TProfile	pXSecEnVsEnNENC;1	pXSecEnVsEnNENC
+  KEY: TProfile	pXSecEnVsEnNEBNC;1	pXSecEnVsEnNEBNC
+  KEY: TProfile	pXSecEnVsEnNTCC;1	pXSecEnVsEnNTCC
+  KEY: TProfile	pXSecEnVsEnNTBCC;1	pXSecEnVsEnNTBCC
+  KEY: TProfile	pXSecEnVsEnNTNC;1	pXSecEnVsEnNTNC
+  KEY: TProfile	pXSecEnVsEnNTBNC;1	pXSecEnVsEnNTBNC
+  KEY: TProfile	pXSecEnVsEnNMCCQE;1	pXSecEnVsEnNMCCQE
+  KEY: TProfile	pXSecEnVsEnNMBCCQE;1	pXSecEnVsEnNMBCCQE
+  KEY: TProfile	pXSecEnVsEnNMCCRES;1	pXSecEnVsEnNMCCRES
+  KEY: TProfile	pXSecEnVsEnNMBCCRES;1	pXSecEnVsEnNMBCCRES
+  KEY: TProfile	pXSecEnVsEnNMCCDIS;1	pXSecEnVsEnNMCCDIS
+  KEY: TProfile	pXSecEnVsEnNMBCCDIS;1	pXSecEnVsEnNMBCCDIS
+  KEY: TProfile	pXSecEnVsEnNMCCCPP;1	pXSecEnVsEnNMCCCPP
+  KEY: TProfile	pXSecEnVsEnNMBCCCPP;1	pXSecEnVsEnNMBCCCPP
+  KEY: TH1F	hNumFiles;1	hNumFiles
