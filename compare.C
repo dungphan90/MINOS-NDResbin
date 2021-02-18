@@ -1,6 +1,6 @@
 TH1D* compare(unsigned int resbinNo, double maxElimit = 200) {
-  TFile* mcfile = new TFile(Form("Data/ND_MC_summAll_resBin%d.root", resbinNo), "READ");
-  TFile* datafile = new TFile(Form("Data/ND_Data_summAll_resBin%d.root", resbinNo), "READ");
+  TFile* mcfile = new TFile(Form("Data/ND_MC_summAll_wBWeight_resBin%d.root", resbinNo), "READ");
+  TFile* datafile = new TFile(Form("Data/ND_Data_summAll_wBWeight_resBin%d.root", resbinNo), "READ");
 
   TH1D* recoE_CC_NuMu_MC = (TH1D*) mcfile->Get("RecoEnergyAll_ND");
   TH1D* recoE_CC_NuMu_Data = (TH1D*) datafile->Get("RecoEnergyAll_ND");
@@ -82,5 +82,58 @@ void OverlayRatio() {
   auto hRatioResBin3 = compare(3, 20);
   auto hRatioResBin4 = compare(4, 20);
 
-  TCanvas* c = new TCanvas
+  hRatioResBin0->SetMarkerColor(kBlack);
+  hRatioResBin1->SetMarkerColor(kRed);
+  hRatioResBin2->SetMarkerColor(kBlue);
+  hRatioResBin3->SetMarkerColor(kOrange);
+  hRatioResBin4->SetMarkerColor(kGreen-1);
+
+  hRatioResBin0->SetLineWidth(2);
+  hRatioResBin1->SetLineWidth(2);
+  hRatioResBin2->SetLineWidth(2);
+  hRatioResBin3->SetLineWidth(2);
+  hRatioResBin4->SetLineWidth(2);
+  
+  hRatioResBin0->SetLineColor(kViolet);
+  hRatioResBin1->SetLineColor(kRed);
+  hRatioResBin2->SetLineColor(kBlue);
+  hRatioResBin3->SetLineColor(kOrange + 1);
+  hRatioResBin4->SetLineColor(kGreen);
+
+  TLine* line = new TLine(0, 1, 20, 1);
+  line->SetLineColor(kBlack);
+  line->SetLineWidth(2);
+
+  TLegend* leg = new TLegend(0.1, 0.1, 0.9, 0.9);
+  leg->SetNColumns(5);
+  leg->AddEntry(hRatioResBin0, "resBin 0", "L");
+  leg->AddEntry(hRatioResBin1, "resBin 1", "L");
+  leg->AddEntry(hRatioResBin2, "resBin 2", "L");
+  leg->AddEntry(hRatioResBin3, "resBin 3", "L");
+  leg->AddEntry(hRatioResBin4, "resBin 4", "L");
+  leg->SetBorderSize(0);
+
+  TCanvas* c = new TCanvas("c1", "c1", 1200, 1200);
+  c->cd();
+  TPad* pU = new TPad("pU", "pU", 0.0, 0.85, 1.0, 1.0);
+  c->cd();
+  TPad* pD = new TPad("pD", "pD", 0.0, 0.0, 1.0, 0.85);
+  
+  c->cd();
+  pU->Draw();
+  pU->cd();
+  leg->Draw();
+
+  c->cd();
+  pD->Draw();
+  pD->cd();
+  hRatioResBin0->Draw("HIST");
+  hRatioResBin0->GetXaxis()->SetLabelSize(0.07);
+  hRatioResBin0->GetYaxis()->SetLabelSize(0.07);
+  line->Draw();
+  hRatioResBin0->GetYaxis()->SetRangeUser(0.7, 1.3);
+  hRatioResBin1->Draw("HIST SAME");
+  hRatioResBin2->Draw("HIST SAME");
+  hRatioResBin3->Draw("HIST SAME");
+  hRatioResBin4->Draw("HIST SAME");
 }
